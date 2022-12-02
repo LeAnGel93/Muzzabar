@@ -1,0 +1,146 @@
+/*html, body{
+    height:100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+  }*/
+
+
+/* body {
+    width: 85vh;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+}
+
+.logo0 {
+    /*max-width: 100%;
+    max-height: 100%;*/
+    width: 200px;
+    height: 200px;
+}
+
+.logo1 {
+    height:100%;
+    width: 100%;
+
+}
+
+.navbar_ul{
+display:flex;
+align-items: center;
+
+}
+
+.navbar_ul--li {
+    color: white;
+    padding: 30px;
+}
+
+
+/* Hasta aqui el encabezado/navegador */
+
+.primerapagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-image: url("https://w0.peakpx.com/wallpaper/14/237/HD-wallpaper-a-restaurant-dinning-france-food-restaurant.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+
+.primerapagina-foto{
+width: 300px;
+height: 300px;
+    
+}
+
+/* Hasta aqui la primera pagina */
+
+.segundapagina-bloquePadre{
+background-image: url("https://img.freepik.com/vector-gratis/fondo-floral-acuarela_125540-829.jpg?w=2000");
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: 100%;
+opacity: 0,7;
+min-height:1000px;
+min-width:1000px;
+
+}
+
+.segundapagina-bloqueHijo{
+    display: flex;
+    padding: 40px;
+    height: 400px;
+    width: 600px;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+   
+}
+
+h2 {
+text-align:center;
+}
+
+
+/* Hasta aqui la segunda pagina*/
+
+.tercerapagina-bloquePadre{
+    background-image: url("https://i.pinimg.com/originals/4b/47/95/4b4795a58748405111bd7566b709eb52.jpg");
+    display: flex;
+    max-height:1000px;
+    width:100%;
+    background-size: cover;
+    justify-content: flex-start;
+}
+
+.gallery{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.tercerapagina-bloqueHijo1--foto{
+   max-width: 200px;
+    height: 170px;
+}
+.tercerapagina-bloqueHijo2--foto{
+    width: 200px;
+    height: 170px;
+}
+.tercerapagina-bloqueHijo3--foto{
+    width: 200px;
+    height: 170px;
+}
+.tercerapagina-bloqueHijo4--foto{
+    width: 200px;
+    height: 170px;
+}
+.tercerapagina-bloqueHijo5--foto{
+    width: 200px;
+    height:210px;
+}
+.tercerapagina-bloqueHijo6--foto{
+    width: 200px;
+    height: 300px;
+}
+.tercerapagina-bloqueHijo7--foto{
+    width: 200px;
+    height: 300px;
+}
