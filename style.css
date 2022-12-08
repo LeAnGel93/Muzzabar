@@ -49,7 +49,7 @@ align-items: center;
 }
 
 
-/* Hasta aqui el encabezado/navegador */
+/* Aqui empieza la primera pagina */
 
 .primerapagina {
     display: flex;
@@ -58,17 +58,17 @@ align-items: center;
     height: 1000px;
     background-image: url("https://w0.peakpx.com/wallpaper/14/237/HD-wallpaper-a-restaurant-dinning-france-food-restaurant.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     width: 100%;
 }
 
 .primerapagina-foto{
-width: 300px;
-height: 300px;
+max-width: 300px;
+max-height: 300px;
     
 }
 
-/* Hasta aqui la primera pagina */
+/* Aqui empieza la segunda pagina */
 
 .segundapagina-bloquePadre{
 background-image: url("https://img.freepik.com/vector-gratis/fondo-floral-acuarela_125540-829.jpg?w=2000");
@@ -99,48 +99,392 @@ text-align:center;
 }
 
 
-/* Hasta aqui la segunda pagina*/
+/* Aqui empieza la tercera página*/
 
 .tercerapagina-bloquePadre{
     background-image: url("https://i.pinimg.com/originals/4b/47/95/4b4795a58748405111bd7566b709eb52.jpg");
     display: flex;
-    max-height:1000px;
-    width:100%;
+    /*width:100%;*/
     background-size: cover;
     justify-content: flex-start;
+    
 }
 
 .gallery{
 display: flex;
 align-items: center;
-justify-content: space-around;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin: 30px 50px;
+align-items: flex-start;
+gap: 10px;
 }
 
+
+
 .tercerapagina-bloqueHijo1--foto{
-   max-width: 200px;
-    height: 170px;
+   width: 250px;
+    height: 220px;
 }
 .tercerapagina-bloqueHijo2--foto{
-    width: 200px;
-    height: 170px;
+    width: 250px;
+    height: 240px;
 }
 .tercerapagina-bloqueHijo3--foto{
-    width: 200px;
-    height: 170px;
+    width: 250px;
+    height: 220px;
 }
 .tercerapagina-bloqueHijo4--foto{
-    width: 200px;
-    height: 170px;
+    width: 250px;
+    height: 300px;
 }
 .tercerapagina-bloqueHijo5--foto{
-    width: 200px;
-    height:210px;
+    width: 250px;
+    height: 220px;
 }
 .tercerapagina-bloqueHijo6--foto{
-    width: 200px;
+    width: 250px;
     height: 300px;
 }
 .tercerapagina-bloqueHijo7--foto{
-    width: 200px;
+    width: 250px;
     height: 300px;
+}
+
+
+/* Aqui empieza la cuarta pagina */
+
+.cuartapagina {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuartapagina__texto{
+    margin: 50px;
+}
+
+/*.cuartapagina__texto-eleccion{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}*/
+
+.cuartapagina__texto-carta{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.cuartapagina__textoinferior {
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 40px 30px;
+
+}
+
+.cuartapagina_textoli1{
+    text-decoration: underline;
+    text-decoration-color: rgba(167, 167, 26, 0.616);
+    text-underline-position: under;
+}
+
+.cuartapagina__textoli{
+    padding: 0 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ .cuartapagina__carta{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    background-image: url("https://www.solofondos.com/wp-content/uploads/2015/12/5020331ba81f9e72641e7a0c057187de.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    padding: 20px;
+    
+ }
+
+.cuartapagina__carta-bloque1{
+    width: 365px;
+    background-color: white;
+    margin-right: 20px;
+}
+.cuartapagina__carta-bloque2{
+    width: 365px;
+    background-color: white;
+}
+
+.cuartapagina__carta-bloque1-grupo1{
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: 3fr 1fr; 
+    grid-gap: 10px;
+    padding: 30px;
+
+
+}
+
+.cuartapagina__carta-bloque1-grupo1-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.cuartapagina__boton{
+  
+    margin: 20px 0 50px 0;
+}
+
+.cuartapagina__boton-boton{
+    background-color: rgb(163, 163, 31);
+    letter-spacing: 2px;
+    color:white;
+    padding: 13px;
+    border: none;
+    width: 300px;
+}
+
+/* Aqui empieza la 5 pagina*/
+
+.quintapagina{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.quintapagina__fondo{
+    background-image: url("https://img.freepik.com/foto-gratis/cocteles-arreglo-coctelera-club-nocturno_23-2149093603.jpg?w=1800&t=st=1670350143~exp=1670350743~hmac=cbf0c602155265b725192ce583eabe61f61b410762d30cc209d7ec22dce512a40");
+     background-size: cover;
+     background-repeat:no-repeat;
+
+}
+.quintapagina__texto{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 50px;
+}
+
+.quintapagina__formulario{
+    border: none;
+}
+
+fieldset {
+    border:none;
+    padding: 30px;
+    gap: 30px;
+}
+
+
+
+/* Aqui empieza la 6 pagina*/
+
+.sextapagina{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.blog{
+
+    margin-bottom: 50px;
+}
+
+.sextapagina__tarjetas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 25px;
+    
+}
+
+.sextapagina__tarjetas-1{
+    width: 300px;
+    height: 500px;
+    background: url("./ImagenesBar/sextapaginaCoctel1jpg.jpg");
+    background-size: cover;
+
+}
+
+.sextapagina__tarjetas-2{
+    width: 300px;
+    background: url("https://img.freepik.com/fotos-premium/coctel-vermu-bocadillos-e-ingredientes-sobre-fondo-hormigon-formato-vertical-aperitivo-tipico-espanol_138656-1080.jpg?w=826");
+    background-size: cover;
+}
+
+
+.sextapagina__tarjetas-3{
+    width: 300px;
+    background: url("./ImagenesBar/sextapaginaCoctel3.jpg");
+    background-size: cover;
+}
+
+.sextapagina__tarjeta-esquina{
+    display:flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 10px;
+    
+}
+
+.sextapagina__tarjeta-esquina-p {
+    text-shadow: 0 0 2px #fff;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.sextapagina__tarjeta-texto{
+    justify-content: center;
+    align-items: center;
+    padding: 100px 70px;
+
+}
+
+.sextapagina__tarjeta-texto-fecha {
+    font-size: 10px;
+    color: grey;
+    opacity: 0.7;
+}
+
+.sextapagina__tarjeta-texto-main {
+    font-size: 25px;
+    color:white;
+
+}
+
+.sextapagina__tarjeta-texto-bottom{
+    font-size: 14px;
+    color:white;
+    font-weight: thin;
+}
+
+.sextapagina__boton {
+    margin-top: 30px;
+}
+
+/* aqui empieza la septima pagina*/
+
+.septimapagina__fondo {
+    background-image: url("./ImagenesBar/septimapaginafondo.jpg");
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.septimapagina__fotocabeza{
+    height: 200px;
+    width: 200px;
+
+    margin: 150px 0 70px 0;
+}
+
+.septimapagina__texto {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+.septimapagina__cajainferior{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.septimapagina__fotitos {
+ height: 100px;
+ width: 100px;
+}
+
+.septimapagina__fotitosdabajo {
+padding: 0 100px 0 100px;
+}
+
+.septimapagina__fotitoscentradas{
+    text-align: center;
+}
+
+/* Aqui empieza la octava pagina*/
+
+.octavapagina__colocarbotones{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-evenly;
+
+}
+
+.octavapagina__botones{
+    border: bolder;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: transparent;
+    width: 150px;
+}
+
+/* Aqui empieza el footer */
+
+.footerfondo {
+    background-color: rgb(156, 151, 151);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /*opacity: 0.7;*/
+
+}
+
+.footerprimertexto{
+
+margin: 30px;
+}
+
+
+.footerTitulito {
+    font-size: 13px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.footerlistado{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.ultimapaginaiconos{
+    margin-top: 125px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
 }
