@@ -267,33 +267,155 @@ gap: 10px;
     align-items: center;
 }
 
+.quintapagina__colorEncabezados{
+
+    color: white;
+}
+
 .quintapagina__fondo{
     background-image: url("https://img.freepik.com/foto-gratis/cocteles-arreglo-coctelera-club-nocturno_23-2149093603.jpg?w=1800&t=st=1670350143~exp=1670350743~hmac=cbf0c602155265b725192ce583eabe61f61b410762d30cc209d7ec22dce512a40");
-     background-size: cover;
-     background-repeat:no-repeat;
+   /* background-size: cover;*/
+   width: 1200px;
+   
+    background-repeat:no-repeat;
 
 }
+
+.quintapagina__cajaPadre{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.quintapagina__formulario{
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    max-width: 36%;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    margin: 50px 0;
+}
+
+.quintapagina__formulario--caja1{
+    width: 515px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.quintapagina_formulario--fixWrap{
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.quintapagina__formulario1{
+    padding: 5px 75px;
+   /* border: thin; */  
+}
+
+.quintapagina__formulario--cajaprincipal{
+    display: flex;
+    align-items: flex-start;  
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+
+.quintapagina__formularioHora{
+    display: flex;
+    align-items: flex-start;  
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+
+.quintapagina__formulario--hora{
+    padding: 5px 50px;
+    text-align: start;
+}
+.quintapagina__formularioMesa{
+    padding: 5px 62%;
+   /* border: thin */
+}
+
+fieldset {
+    border:none;
+    padding-right: 30px;
+    gap: 30px;
+}
+
+
+.quintapagina__botones--reservar{
+    font-weight: bold;
+    padding: 5px 221px;
+    border:thin;
+    margin: 30px 0 ;
+    background-color: rgb(255, 255, 255);
+}
+
+.quintapagina__botones--espera{
+    font-weight: bold;
+    padding: 5px 202px;
+    border:thin;
+    margin: 5px 0 ;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.quintapagina__botones--solicitud{
+    font-weight: bold;
+    padding: 5px 192px;
+    border:thin;
+    margin: 5px 0 ;
+    background-color: rgb(255, 255, 255);
+
+}
+
 .quintapagina__texto{
     display: flex;
     align-content: center;
     justify-content: center;
+    flex-direction: column;
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 20px;
     margin: 50px;
 }
 
-.quintapagina__formulario{
-    border: none;
+.quintapagina__texto--MOZZABAR{
+    font-size: 25px;
+    color: rgb(155, 155, 0);
 }
 
-fieldset {
-    border:none;
-    padding: 30px;
-    gap: 30px;
+.quintapagina__texto--FOOD {
+    font-size: 21px;
+    letter-spacing: 3px;
+    color: white;
 }
 
+.quintapagina__linea {
+    letter-spacing: -2px;
+    color: white;
+    margin-bottom: 13px;
+}
 
+.quintapagina__listaDireccion{
+    color:white;
+    font-size: 10px;
+
+}
 
 /* Aqui empieza la 6 pagina*/
 
@@ -487,4 +609,23 @@ margin: 30px;
     display: flex;
     align-items: flex-end;
     flex-wrap: wrap;
+}
+
+.lineatitulo {
+letter-spacing: -2px;
+color: rgb(153, 153, 13);
+font-size: 18px;
+padding: 0 10px;
+}
+
+.encabezadosPagina {
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.encabezados{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
